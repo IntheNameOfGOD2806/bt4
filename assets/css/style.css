@@ -1,0 +1,71 @@
+body{
+    background-color: #E7EBF0;
+
+}
+.card {
+   width: 242px;
+    height: 312px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 52px;
+
+}
+
+
+.avatar {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card-header__name {
+    font-size: small;
+    color: black;
+    width: 70%;
+
+}
+
+.card-header_date {
+    color: rgb(167, 160, 160);
+}
+
+.card-header_icon {}
+
+.card-body {}
+
+.card-body_image {
+    width: 100%;
+    
+}
+
+.card-body_text {
+    
+    width: 90%;
+    margin: 0px 13px;
+    color: rgb(167, 160, 160);
+}
+
+.card-footer {
+    
+    margin: 40px  13px 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-solid.fa-bars {}
+
+.fa-solid.fa-heart {}
+
+.fa-solid.fa-square-share-nodes {}
+
+.fa-solid.fa-caret-down {}
